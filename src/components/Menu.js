@@ -24,6 +24,11 @@ const Menu = () => {
             About Foo
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/posts" activeStyle={activeStyle}>
+            Posts
+          </NavLink>
+        </li>
       </ul>
       <hr />
     </div>
